@@ -6,8 +6,13 @@ import ChatBubbleOutlineIcon from '@mui/icons-material/ChatBubbleOutline';
 import NearMeIcon from '@mui/icons-material/NearMe';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import ExpandMoreOutlinedIcon from '@mui/icons-material/ExpandMoreOutlined';
+import moment from 'moment';
+//{new Date(timestamp?.toDate()).toUTCString()}
 
 function Post({ profilePic, image, username, timestamp, message }) {
+    const formatedDate = moment(timestamp.toDate?.()).format('MM DD YYYY HH:MM');
+   const mama= (timestamp.toDate()) ?"mama mea" : "mama ta" 
+   const tata= mama ?? "3"
     return (
         <div className='post'>
             <div className='post__top'>
@@ -15,7 +20,8 @@ function Post({ profilePic, image, username, timestamp, message }) {
                     className='post__avatar' />
                 <div className='post__topInfo'>
                     <h3>{username}</h3>
-                    <p>Timestamp...</p>
+                    <p>{formatedDate}</p>
+
                 </div>
             </div>
 
@@ -44,7 +50,7 @@ function Post({ profilePic, image, username, timestamp, message }) {
                 </div>
                 <div className='post__option'>
                     <AccountCircleIcon />
-                    <ExpandMoreOutlinedIcon/>
+                    <ExpandMoreOutlinedIcon />
                 </div>
             </div>
         </div>

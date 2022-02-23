@@ -6,8 +6,12 @@ import { Avatar, IconButton } from '@mui/material';
 import AddIcon from '@mui/icons-material/Add';
 import NotificationsIcon from '@mui/icons-material/NotificationsActive';
 import FacebookIcon from '@mui/icons-material/Facebook';
+import { useStateValue } from './StateProvider';
 
 function Header() {
+
+    const [{ user }, dispatch] = useStateValue();
+
     return <div className='header'>
         <div className='header__left'>
             <div className='facebook__logo'>
@@ -28,8 +32,8 @@ function Header() {
 
         <div className='header__right'>
             <div className='header__info'>
-                <Avatar />
-                <h4>Alin Sefu</h4>
+                <Avatar src={user.photoURL} />
+                <h4>{user.displayName}</h4>
             </div>
 
             <IconButton>
