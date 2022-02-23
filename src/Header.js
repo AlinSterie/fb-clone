@@ -7,6 +7,13 @@ import AddIcon from '@mui/icons-material/Add';
 import NotificationsIcon from '@mui/icons-material/NotificationsActive';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import { useStateValue } from './StateProvider';
+import FlagIcon from '@mui/icons-material/Flag';
+import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
+import StorefrontIcon from '@mui/icons-material/Storefront';
+import GroupsIcon from '@mui/icons-material/Groups';
+import { fontSize } from '@mui/system';
+import ForumIcon from '@mui/icons-material/Forum';
+import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 
 function Header() {
 
@@ -16,6 +23,7 @@ function Header() {
         <div className='header__left'>
             <div className='facebook__logo'>
                 <FacebookIcon fontSize="large" />
+
             </div>
             <div className='header__input'>
                 <SearchIcon />
@@ -24,9 +32,21 @@ function Header() {
         </div>
 
         <div className='header__center'>
-            <div className='header__option
-            header__option--active'>
+            <div className="header__option
+            header__option--active">
                 <HomeIcon fontSize="large" />
+            </div>
+            <div className='header__option'>
+                <FlagIcon fontSize="large" />
+            </div>
+            <div className='header__option'>
+                <OndemandVideoIcon fontSize="large" />
+            </div>
+            <div className='header__option'>
+                <StorefrontIcon fontSize="large" />
+            </div>
+            <div className='header__option'>
+                <GroupsIcon fontSize="large" />
             </div>
         </div>
 
@@ -39,8 +59,17 @@ function Header() {
             <IconButton>
                 <AddIcon />
             </IconButton>
+
+            <IconButton>
+                <ForumIcon />
+            </IconButton>
+
             <IconButton>
                 <NotificationsIcon />
+            </IconButton>
+
+            <IconButton>
+                <ExpandMoreIcon />
             </IconButton>
         </div>
 

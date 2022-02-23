@@ -11,8 +11,6 @@ import moment from 'moment';
 
 function Post({ profilePic, image, username, timestamp, message }) {
     const formatedDate = moment(timestamp.toDate?.()).format('MM DD YYYY HH:MM');
-   const mama= (timestamp.toDate()) ?"mama mea" : "mama ta" 
-   const tata= mama ?? "3"
     return (
         <div className='post'>
             <div className='post__top'>
