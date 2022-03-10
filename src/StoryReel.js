@@ -6,11 +6,11 @@ function StoryReel() {
         <div className='storyReel'>
             <Story
                 image="https://scontent.fotp3-3.fna.fbcdn.net/v/t1.6435-9/61512952_2809379175770100_4460051721300738048_n.jpg?_nc_cat=108&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=EBRPx5dYhOQAX-HPFy3&_nc_ht=scontent.fotp3-3.fna&oh=00_AT-S-SdNJkdg0I1V_fRs75lfbDGvWIX3usz8BdE0pJW-gg&oe=623A80DC"
-                profileSrc="https://scontent.fotp3-3.fna.fbcdn.net/v/t39.30808-1/243331415_4581494471915412_8829128264945225316_n.jpg?stp=dst-jpg_p320x320&_nc_cat=102&ccb=1-5&_nc_sid=7206a8&_nc_ohc=XY_w0C2AT6cAX8RJ2OX&tn=YqydraxeU3_D1tdg&_nc_ht=scontent.fotp3-3.fna&oh=00_AT9pAza-FwBIPwxzYFaABqBQUqx1PX-5etN0QxtD-o5hdA&oe=62198DF3"
+                profileSrc="https://scontent-otp1-1.xx.fbcdn.net/v/t39.30808-6/243331415_4581494471915412_8829128264945225316_n.jpg?_nc_cat=102&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=qufDTs2FLXwAX--tyQ9&_nc_ht=scontent-otp1-1.xx&oh=00_AT__F6HnOn7-60OB44Mamn8kmW8ffvF5BpMhWCqmLqS0Fw&oe=622E16F1"
                 title="Stefania Penaru"
             />
             <Story
-                image="https://scontent.fotp3-3.fna.fbcdn.net/v/t39.30808-6/270940860_3081660472084590_6378042326206748173_n.jpg?_nc_cat=101&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=IXUlcwYcDcQAX-3J12w&_nc_ht=scontent.fotp3-3.fna&oh=00_AT-KAg1luCSc5UzPWDFDTLpNVKJw4zxAsPy5je0cGoN3Tg&oe=6218F2B2"
+                image="https://scontent-otp1-1.xx.fbcdn.net/v/t39.30808-6/274928359_3125593341024636_3341608174265089827_n.jpg?_nc_cat=103&ccb=1-5&_nc_sid=8bfeb9&_nc_ohc=zFC17vfeZ1AAX-TyEV1&_nc_ht=scontent-otp1-1.xx&oh=00_AT-Ci0UmMF62P-Q0BvAFB-WmfEerBpCZeR9EtLaGpLISww&oe=622D615C"
                 profileSrc="https://scontent.fotp3-2.fna.fbcdn.net/v/t1.6435-9/75552807_2053346108101519_8842968333931249664_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=U53FM4cpY_4AX-tiW0U&_nc_ht=scontent.fotp3-2.fna&oh=00_AT9uhanjch3LafUahgMt47NTSqFDSwjZZaJAB9muNneJkw&oe=6237498C"
                 title="Vlad Anton"
             />

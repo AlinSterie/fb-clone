@@ -10,7 +10,7 @@ import moment from 'moment';
 //{new Date(timestamp?.toDate()).toUTCString()}
 
 function Post({ profilePic, image, username, timestamp, message }) {
-    const formatedDate = moment(timestamp.toDate?.()).format('MM DD YYYY HH:MM');
+    const formatedDate = moment(timestamp?.toDate?.()).format('MM DD YYYY HH:MM');
     return (
         <div className='post'>
             <div className='post__top'>
